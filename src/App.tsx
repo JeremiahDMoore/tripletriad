@@ -16,12 +16,15 @@ function App() {
   } = useGameStore();
 
   return (
-    <div className="min-h-screen bg-gray-900 text-white p-8">
+    <div className="min-h-screen bg-gray-600 text-white p-8">
       <div className="max-w-6xl mx-auto space-y-8">
         <div className="flex justify-between items-center">
-          <h1 className="text-4xl font-bold bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
-            Triple Triad
-          </h1>
+          <div className="flex items-center">
+            <img src="/images/pngegg.png" alt="Logo" className="w-[520px] h-auto mr-2" /> {/* Updated width */}
+            <h1 className="text-4xl font-bold bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
+              Triple Triad
+            </h1>
+          </div>
           <button
             onClick={resetGame}
             className="flex items-center gap-2 px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded-lg transition-colors"
