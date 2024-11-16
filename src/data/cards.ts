@@ -2,7 +2,7 @@ export const initialCards = [
   {
     id: 1,
     name: "Ifrit",
-    image: "/Ifrit.webp",
+    image: "/images/Ifrit.webp",
     top: 9,
     right: 6,
     bottom: 2,
@@ -13,7 +13,7 @@ export const initialCards = [
   {
     id: 2,
     name: "Shiva",
-    image: "/Shiva.webp",
+    image: "/images/Shiva.webp",
     top: 7,
     right: 8,
     bottom: 3,
@@ -24,7 +24,7 @@ export const initialCards = [
   {
     id: 3,
     name: "Quezacotl",
-    image: "/Quezacotl.webp",
+    image: "/images/Quezacotl.webp",
     top: 8,
     right: 4,
     bottom: 8,
@@ -35,7 +35,7 @@ export const initialCards = [
   {
     id: 4,
     name: "Diablos",
-    image: "/Diablos.webp",
+    image: "/images/Diablos.webp",
     top: 5,
     right: 9,
     bottom: 4,
@@ -46,7 +46,7 @@ export const initialCards = [
   {
     id: 5,
     name: "Carbuncle",
-    image: "/Carbuncle.webp",
+    image: "/images/Carbuncle.webp",
     top: 6,
     right: 5,
     bottom: 9,
@@ -57,7 +57,7 @@ export const initialCards = [
   {
     id: 6,
     name: "Leviathan",
-    image: "/Leviathan.webp",
+    image: "/images/Leviathan.webp",
     top: 8,
     right: 7,
     bottom: 5,
@@ -68,7 +68,7 @@ export const initialCards = [
   {
     id: 7,
     name: "Odin",
-    image: "/Odin.webp",
+    image: "/images/Odin.webp",
     top: 9,
     right: 4,
     bottom: 7,
@@ -79,7 +79,7 @@ export const initialCards = [
   {
     id: 8,
     name: "Bahamut",
-    image: "/Bahamut.webp",
+    image: "/images/Bahamut.webp",
     top: 7,
     right: 8,
     bottom: 6,
@@ -90,7 +90,7 @@ export const initialCards = [
   {
     id: 9,
     name: "Cactuar",
-    image: "/Cactuar.webp",
+    image: "/images/Cactuar.webp",
     top: 4,
     right: 6,
     bottom: 8,
@@ -101,7 +101,7 @@ export const initialCards = [
   {
     id: 10,
     name: "Tonberry",
-    image: "/Tonberry.webp",
+    image: "/images/Tonberry.webp",
     top: 6,
     right: 7,
     bottom: 4,
