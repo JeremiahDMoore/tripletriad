@@ -2,7 +2,7 @@ export const initialCards = [
   {
     id: 1,
     name: "Ifrit",
-    image: "https://images.unsplash.com/photo-1544553860-2d3d5d2e99c5?w=200&h=200&fit=crop",
+    image: "/src/data/Ifrit.webp",
     top: 9,
     right: 6,
     bottom: 2,
@@ -13,7 +13,7 @@ export const initialCards = [
   {
     id: 2,
     name: "Shiva",
-    image: "https://images.unsplash.com/photo-1534294228306-bd54eb9a7ba8?w=200&h=200&fit=crop",
+    image: "/src/data/Shiva.webp",
     top: 7,
     right: 8,
     bottom: 3,
@@ -24,7 +24,7 @@ export const initialCards = [
   {
     id: 3,
     name: "Quezacotl",
-    image: "https://images.unsplash.com/photo-1527482797697-8795b05a13fe?w=200&h=200&fit=crop",
+    image: "/src/data/Quezacotl.webp",
     top: 8,
     right: 4,
     bottom: 8,
@@ -35,7 +35,7 @@ export const initialCards = [
   {
     id: 4,
     name: "Diablos",
-    image: "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=200&h=200&fit=crop",
+    image: "/src/data/Diablos.webp",
     top: 5,
     right: 9,
     bottom: 4,
@@ -46,7 +46,7 @@ export const initialCards = [
   {
     id: 5,
     name: "Carbuncle",
-    image: "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=200&h=200&fit=crop",
+    image: "/src/data/Carbuncle.webp",
     top: 6,
     right: 5,
     bottom: 9,
@@ -57,7 +57,7 @@ export const initialCards = [
   {
     id: 6,
     name: "Leviathan",
-    image: "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=200&h=200&fit=crop",
+    image: "/src/data/Leviathan.webp",
     top: 8,
     right: 7,
     bottom: 5,
@@ -68,7 +68,7 @@ export const initialCards = [
   {
     id: 7,
     name: "Odin",
-    image: "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=200&h=200&fit=crop",
+    image: "/src/data/Odin.webp",
     top: 9,
     right: 4,
     bottom: 7,
@@ -79,7 +79,7 @@ export const initialCards = [
   {
     id: 8,
     name: "Bahamut",
-    image: "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=200&h=200&fit=crop",
+    image: "/src/data/",
     top: 7,
     right: 8,
     bottom: 6,
@@ -90,7 +90,7 @@ export const initialCards = [
   {
     id: 9,
     name: "Cactuar",
-    image: "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=200&h=200&fit=crop",
+    image: "/src/data/Cactuar.webp",
     top: 4,
     right: 6,
     bottom: 8,
@@ -101,7 +101,7 @@ export const initialCards = [
   {
     id: 10,
     name: "Tonberry",
-    image: "https://images.unsplash.com/photo-1534447677768-be436bb09401?w=200&h=200&fit=crop",
+    image: "/src/data/Tonberry.webp",
     top: 6,
     right: 7,
     bottom: 4,
