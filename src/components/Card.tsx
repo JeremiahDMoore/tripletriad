@@ -26,7 +26,7 @@ export const Card: React.FC<CardProps> = ({ card, onClick, selected, disabled })
         alt={card.name}
         className="w-full h-full object-cover rounded-lg opacity-50"
       />
-      <div className="absolute inset-0 p-2 text-white">
+      <div className="absolute inset-0 p-2 text-white"> {/* Updated text color */}
         <div className="text-sm font-bold mb-1">{card.name}</div>
         
         <div className="absolute top-1/4 left-1/2 -translate-x-1/2">
