@@ -8,8 +8,6 @@ function App() {
   const {
     playerHand,
     opponentHand,
-    playerScore,
-    opponentScore,
     currentTurn,
     gameOver,
     resetGame
@@ -19,31 +17,18 @@ function App() {
     <div className="min-h-screen bg-gray-600 text-white p-8">
       <div className="max-w-6xl mx-auto space-y-8">
         <div className="flex justify-between items-center">
-          <div className="flex items-center">
-            <img src="/images/pngegg.png" alt="Logo" className="w-[520px] h-auto mr-2" /> {/* Updated width */}
-            <h1 className="text-4xl font-bold bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
-              Triple Triad
-            </h1>
-          </div>
-          <button
-            onClick={resetGame}
-            className="flex items-center gap-2 px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded-lg transition-colors"
-          >
-            <RotateCcw className="w-5 h-5" />
-            New Game
-          </button>
-        </div>
-
-        <div className="flex justify-between items-center">
-          <div className="text-xl">
-            Opponent Score: {opponentScore}
-          </div>
-          <div className="flex items-center gap-2 px-4 py-2 bg-gray-800 rounded-lg">
-            <Swords className={`w-5 h-5 ${currentTurn === 'player' ? 'text-blue-500' : 'text-red-500'}`} />
-            {currentTurn === 'player' ? "Your Turn" : "Opponent's Turn"}
-          </div>
-          <div className="text-xl">
-            Your Score: {playerScore}
+          <div className="flex items-center gap-10 mx-auto">
+            <div className="flex items-center gap-2 px-4 py-2 bg-gray-800 rounded-lg">
+              <Swords className={`w-5 h-5 ${currentTurn === 'player' ? 'text-blue-500' : 'text-red-500'}`} />
+              {currentTurn === 'player' ? "Your Turn" : "Opponent's Turn"}
+            </div>
+            <button
+              onClick={resetGame}
+              className="flex items-center gap-2 px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded-lg transition-colors"
+            >
+              <RotateCcw className="w-5 h-5" />
+              New Game
+            </button>
           </div>
         </div>
 
@@ -62,11 +47,7 @@ function App() {
                 Game Over!
               </h2>
               <p className="text-xl mb-6">
-                {playerScore > opponentScore
-                  ? 'You Win!'
-                  : playerScore < opponentScore
-                  ? 'You Lose!'
-                  : "It's a Tie!"}
+                The game has ended.
               </p>
               <button
                 onClick={resetGame}
